@@ -1,0 +1,126 @@
+.nav-logo{
+    aspect-ratio: 1/1;
+    width: 4rem;
+}
+
+.main-nav{
+    top: 0;
+    position: sticky;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1;
+    box-shadow: 0px 2px 1rem black;
+}
+
+.item{
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all ease-in 100ms;
+    
+}
+
+.nav-sections{
+    z-index: 1;
+}
+
+.menu-items{
+    position: absolute;
+    background-color: #FF4041;
+    width: 100%;
+    left: 0;
+    display: block;
+    top: -300%;
+    margin-top: 1rem;
+    
+    
+}
+
+.menu-items li{
+    padding: 1rem;
+}
+
+.fa-xmark{
+    display: none;
+}
+
+.fa-bars, .fa-xmark{
+    font-size: 2rem;
+    
+}
+
+@media only screen and (min-width: 1550px){
+
+    .main-nav{
+        top: 0;
+        position: sticky;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 1rem;
+        box-shadow: 0px 2px 1rem black;
+    }
+
+    .nav-logo{
+        aspect-ratio: 1/1;
+        width: 7.5rem;
+        padding-right: 2rem;
+    }
+
+    .main-nav{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+
+    .nav-sections:nth-child(1){
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-items{
+        position: relative;
+        background-color: transparent;
+        display: block;
+    }
+
+    .menu-items li{
+        display: inline-block;
+        padding-inline: 1rem;
+        position: relative;
+        
+        
+    }
+
+    .item{
+        color: black;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        transition: all ease-in 100ms;
+        
+    }
+
+    .menu-items a:hover{
+        background-color: #FF4041;
+        padding: 2rem;
+        transition: all ease-in 100ms;
+        color: #FFFFFF;
+        border-radius: 2rem;
+
+    }
+
+    .fa-bars, .fa-xmark{
+        text-align: right;
+        display: none;
+    }
+}

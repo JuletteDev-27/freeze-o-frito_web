@@ -1,0 +1,173 @@
+
+
+
+@media only screen and (min-width: 1200px){
+   .main-content{
+    display: grid;
+    height: 100svh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    position: relative;
+   }
+
+   .content-sections:nth-child(1){
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    position: relative;
+   }
+
+   .content-section-1:nth-child(1){
+      background-color: #FFeFb5;
+      height: 100%;
+      display: grid;
+      justify-items: center;
+      position: relative;
+      align-items: center;
+      
+   }
+
+   .main-con-home-btn{
+      font-size: 2rem;
+      height: max-content;
+      padding: 3rem 1rem ;
+      position: absolute;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 300;
+      color: black;
+      
+   }
+
+   .content-section-1:nth-child(2){
+      background-image: url('https://pixabay.com/get/gc8c28d695bd1bb94e7145444648f027f6c6059e1999a3d6f8a0ba9dec5aed703d7d253278280002ad84d59afcd2414fb_1280.jpg');
+      background-size: cover;
+      background-position: center;
+   }
+
+   .content-section-1:nth-child(3){
+     
+      grid-column: 1 / span 2;
+      background-image: url('https://pixabay.com/get/g2b5cc5b2236f7345454588396ecb90facf2d4ce2b0afc5043fdeb22e2b8d258a44278724b999d560f97ba0333d8f5e69_1280.png');
+      background-size: cover;
+      bottom:0;
+   }
+
+   .content-sections:nth-child(2){
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: blue;
+    height: 100%;
+    position: relative;
+   }
+
+   .content-section-2:nth-child(1){
+      background-color: darkblue;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+   }
+
+   .content-section-2:nth-child(2){
+      background-color: darkred;
+   
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+   }
+
+   .content-2-sub-1:nth-child(1){
+      background-color: #57b1e6;
+      display: grid;
+      
+
+   }
+
+   .main-con-menu-btn{
+      font-size: 2rem;
+      height: max-content;
+      position: absolute;
+      border-radius: 100px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 300;
+      color: white;
+      text-align: center;
+      place-self: center;
+   }
+
+   .content-2-sub-1:nth-child(2){
+      background-image: url('https://pixabay.com/get/g8e71516bffee50ab79a419fb2fca6a9bd23c9d27ad2843a7d36ab858affb95dc14a0512c13428d2c4aa34228ee154aad_1280.jpg');
+      background-position: bottom;
+      background-size: cover;
+   }
+
+   .content-2-sub-2:nth-child(1){
+      display: grid;
+      background-color: #2f5d77;
+   }
+
+   .main-con-about-btn{
+      font-size: 2rem;
+      height: max-content;
+      position: absolute;
+      border-radius: 100px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 300;
+      color: white;
+      text-align: center;
+      place-self: center;
+   }
+
+   .content-2-sub-2:nth-child(2){
+      background-image: url('https://pixabay.com/get/gcbfa7bec8740d83286abb849e7fcefc81edfce799bfebcc76ff73a1efae16910e717dc9f0639aefee018f9cdea5240e7_1280.jpg');
+      background-size: cover;
+   }
+
+   .content-sections:nth-child(3){
+    background-color: yellow;
+    grid-column: 1 / span 2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+
+   .content-section-3:nth-child(1){
+      background-image: url('https://pixabay.com/get/g805ea13d411606cb88f130d04197915aa20d1c713be1dcb54b4f14acc7ec0b50cc0c7aa62ad07714c0221610c83372f3_1280.png');
+      background-size: cover;
+      
+   }
+
+
+   
+   .content-section-3:nth-child(2){
+      background-color: #fff6d3;
+      display: grid;
+   }
+
+   .main-con-contact-btn{
+      font-size: 2rem;
+      height: max-content;
+      position: absolute;
+      border-radius: 100px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 300;
+      color: black;
+      text-align: center;
+      place-self: center;
+   }
+
+
+   .content-section-3:nth-child(3){
+      background-image: url('https://pixabay.com/get/g8ec1dad654bc6259cd654cabd2e2ef1bb31c7dfc66dab648f352642c3045906fecd820ccac127a852e1fbe9ed2622476_1280.jpg');
+      background-size: cover;
+   }
+
+   .content-section-3:nth-child(4){
+      background-image: url('https://pixabay.com/get/gbc4b359b27801e649642ff84de4dd693d1848ff68cef43a257d5b1d12d12a7a6efd7d74c381fd9d34bd6351541cea0b9_1280.jpg');
+      background-size: cover;
+   }
+
+
+
+
+   
+}
